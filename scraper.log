@@ -1,0 +1,153 @@
+2020/10/22 09:42:13     INFO    root | mobile.de scraper (version 1.0)
+2020/10/22 09:42:13     INFO    root | Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+2020/10/22 09:42:13     INFO    root | codepage: cp1252
+2020/10/22 09:42:13     INFO    root | Configuration file: config.yml
+2020/10/22 09:42:13     INFO    root | Parameters:
+2020/10/22 09:42:13     INFO    root | 	config_file: config.yml
+2020/10/22 09:42:13     INFO    root | 	filter_date: {'min': 2010, 'max': 2018}
+2020/10/22 09:42:13     INFO    root | 	filter_mileage: None
+2020/10/22 09:42:13     INFO    root | 	filter_price: {'min': 6500, 'max': 20000}
+2020/10/22 09:42:13     INFO    root | 	filter_vendor: any
+2020/10/22 09:42:13     INFO    root | 	min_image_count: 15
+2020/10/22 09:42:13     INFO    root | 	output: C:\Users\HMN\Desktop\motorsssss
+2020/10/22 09:42:13     INFO    root | 	vehicle_type: moto
+2020/10/22 09:42:13     INFO Scraper | starting...
+2020/10/22 09:42:16    DEBUG Scraper | Search URL: https://suchen.mobile.de/fahrzeuge/search.html?scopeId=MB&adLimitation=&minPrice=6500&maxPrice=20000&minFirstRegistrationDate=2010&maxFirstRegistrationDate=2018&minMileage=&maxMileage=&lang=en&damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&minPowerAsArray=PS&maxPowerAsArray=PS&sfmr=false
+2020/10/22 09:42:16    ERROR    root | 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "app.py", line 69, in main
+  File "scraper.py", line 112, in run
+AttributeError: 'NoneType' object has no attribute 'text'
+2020/10/22 09:42:16     INFO    root | Done.
+2020/10/22 09:42:38     INFO    root | mobile.de scraper (version 1.0)
+2020/10/22 09:42:38     INFO    root | Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+2020/10/22 09:42:38     INFO    root | codepage: cp1252
+2020/10/22 09:42:38     INFO    root | Configuration file: config.yml
+2020/10/22 09:42:38     INFO    root | Parameters:
+2020/10/22 09:42:38     INFO    root | 	config_file: config.yml
+2020/10/22 09:42:38     INFO    root | 	filter_date: {'min': 2010, 'max': 2018}
+2020/10/22 09:42:38     INFO    root | 	filter_mileage: None
+2020/10/22 09:42:38     INFO    root | 	filter_price: {'min': 6500, 'max': 20000}
+2020/10/22 09:42:38     INFO    root | 	filter_vendor: any
+2020/10/22 09:42:38     INFO    root | 	min_image_count: 15
+2020/10/22 09:42:38     INFO    root | 	output: C:\Users\HMN\Desktop\motorsssss
+2020/10/22 09:42:38     INFO    root | 	vehicle_type: moto
+2020/10/22 09:42:38     INFO Scraper | starting...
+2020/10/22 09:42:41    DEBUG Scraper | Search URL: https://suchen.mobile.de/fahrzeuge/search.html?scopeId=MB&adLimitation=&minPrice=6500&maxPrice=20000&minFirstRegistrationDate=2010&maxFirstRegistrationDate=2018&minMileage=&maxMileage=&lang=en&damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&minPowerAsArray=PS&maxPowerAsArray=PS&sfmr=false
+2020/10/22 09:42:41    ERROR    root | 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "app.py", line 69, in main
+  File "scraper.py", line 112, in run
+AttributeError: 'NoneType' object has no attribute 'text'
+2020/10/22 09:42:41     INFO    root | Done.
+2020/10/22 10:49:56     INFO    root | mobile.de scraper (version 1.0)
+2020/10/22 10:49:56     INFO    root | Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+2020/10/22 10:49:56     INFO    root | codepage: cp1252
+2020/10/22 10:49:56     INFO    root | Configuration file: config.yml
+2020/10/22 10:49:56     INFO    root | Parameters:
+2020/10/22 10:49:56     INFO    root | 	config_file: config.yml
+2020/10/22 10:49:56     INFO    root | 	filter_date: {'min': 2010, 'max': 2018}
+2020/10/22 10:49:56     INFO    root | 	filter_mileage: None
+2020/10/22 10:49:56     INFO    root | 	filter_price: {'min': 7000, 'max': 20000}
+2020/10/22 10:49:56     INFO    root | 	filter_vendor: private
+2020/10/22 10:49:56     INFO    root | 	min_image_count: 15
+2020/10/22 10:49:56     INFO    root | 	output: C:\Users\HMN\Desktop\motorsssss
+2020/10/22 10:49:56     INFO    root | 	vehicle_type: moto
+2020/10/22 10:49:56     INFO Scraper | starting...
+2020/10/22 10:50:01    DEBUG Scraper | Search URL: https://suchen.mobile.de/fahrzeuge/search.html?scopeId=MB&adLimitation=ONLY_FSBO_ADS&minPrice=7000&maxPrice=20000&minFirstRegistrationDate=2010&maxFirstRegistrationDate=2018&minMileage=&maxMileage=&lang=en&damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&minPowerAsArray=PS&maxPowerAsArray=PS&sfmr=false
+2020/10/22 10:50:01    ERROR    root | 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "app.py", line 69, in main
+  File "scraper.py", line 112, in run
+AttributeError: 'NoneType' object has no attribute 'text'
+2020/10/22 10:50:01     INFO    root | Done.
+2020/10/22 10:51:51     INFO    root | mobile.de scraper (version 1.0)
+2020/10/22 10:51:51     INFO    root | Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+2020/10/22 10:51:51     INFO    root | codepage: cp1252
+2020/10/22 10:51:51     INFO    root | Configuration file: config.yml
+2020/10/22 10:51:51     INFO    root | Parameters:
+2020/10/22 10:51:51     INFO    root | 	config_file: config.yml
+2020/10/22 10:51:51     INFO    root | 	filter_date: {'min': 2010, 'max': 2018}
+2020/10/22 10:51:51     INFO    root | 	filter_mileage: None
+2020/10/22 10:51:51     INFO    root | 	filter_price: {'min': 7000, 'max': 20000}
+2020/10/22 10:51:51     INFO    root | 	filter_vendor: private
+2020/10/22 10:51:51     INFO    root | 	min_image_count: 10
+2020/10/22 10:51:51     INFO    root | 	output: C:\Users\HMN\Desktop\motorsssss
+2020/10/22 10:51:51     INFO    root | 	vehicle_type: moto
+2020/10/22 10:51:51     INFO Scraper | starting...
+2020/10/22 10:51:54    DEBUG Scraper | Search URL: https://suchen.mobile.de/fahrzeuge/search.html?scopeId=MB&adLimitation=ONLY_FSBO_ADS&minPrice=7000&maxPrice=20000&minFirstRegistrationDate=2010&maxFirstRegistrationDate=2018&minMileage=&maxMileage=&lang=en&damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&minPowerAsArray=PS&maxPowerAsArray=PS&sfmr=false
+2020/10/22 10:51:54    ERROR    root | 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "app.py", line 69, in main
+  File "scraper.py", line 112, in run
+AttributeError: 'NoneType' object has no attribute 'text'
+2020/10/22 10:51:54     INFO    root | Done.
+2021/10/11 14:31:59     INFO    root | mobile.de scraper (version 1.0)
+2021/10/11 14:31:59     INFO    root | Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+2021/10/11 14:31:59     INFO    root | codepage: cp1252
+2021/10/11 14:31:59     INFO    root | Configuration file: config.yml
+2021/10/11 14:31:59     INFO    root | Parameters:
+2021/10/11 14:31:59     INFO    root | 	config_file: config.yml
+2021/10/11 14:31:59     INFO    root | 	filter_date: None
+2021/10/11 14:31:59     INFO    root | 	filter_mileage: None
+2021/10/11 14:31:59     INFO    root | 	filter_price: None
+2021/10/11 14:31:59     INFO    root | 	filter_vendor: any
+2021/10/11 14:31:59     INFO    root | 	min_image_count: 0
+2021/10/11 14:31:59     INFO    root | 	output: E:\00000000000000\mobile_de_scraper-1.0-py37 v new\New folder
+2021/10/11 14:31:59     INFO    root | 	vehicle_type: car
+2021/10/11 14:31:59     INFO Scraper | starting...
+2021/10/11 14:32:13    DEBUG Scraper | Search URL: https://suchen.mobile.de/fahrzeuge/search.html?damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&lang=en&maxPowerAsArray=PS&minPowerAsArray=PS&scopeId=C&sfmr=false
+2021/10/11 14:32:13     INFO Scraper | Summary: 1,127,020 Ads matching your search criteria
+2021/10/11 14:32:13     INFO Scraper | Total pages: 50
+2021/10/11 14:32:13     INFO Scraper | page: 1	items: 0
+2021/10/11 14:32:15     INFO Scraper | page: 2	items: 0
+2021/10/11 14:32:17     INFO Scraper | page: 3	items: 0
+2021/10/11 14:32:18     INFO Scraper | page: 4	items: 0
+2021/10/11 14:32:19     INFO Scraper | page: 5	items: 0
+2021/10/11 14:32:20     INFO Scraper | page: 6	items: 0
+2021/10/11 14:32:21     INFO Scraper | page: 7	items: 0
+2021/10/11 14:32:23     INFO Scraper | page: 8	items: 0
+2021/10/11 14:32:25     INFO Scraper | page: 9	items: 0
+2021/10/11 14:32:26     INFO Scraper | page: 10	items: 0
+2021/10/11 14:32:27     INFO Scraper | page: 11	items: 0
+2021/10/11 14:32:28     INFO Scraper | page: 12	items: 0
+2021/10/11 14:32:29     INFO Scraper | page: 13	items: 0
+2021/10/11 14:32:30     INFO Scraper | page: 14	items: 0
+2021/10/11 14:32:31     INFO Scraper | page: 15	items: 0
+2021/10/11 14:32:32     INFO Scraper | page: 16	items: 0
+2021/10/11 14:32:33     INFO Scraper | page: 17	items: 0
+2021/10/11 14:32:34     INFO Scraper | page: 18	items: 0
+2021/10/11 14:32:35     INFO Scraper | page: 19	items: 0
+2021/10/11 14:32:36     INFO Scraper | page: 20	items: 0
+2021/10/11 14:32:37     INFO Scraper | page: 21	items: 0
+2021/10/11 14:32:38     INFO Scraper | page: 22	items: 0
+2021/10/11 14:32:39     INFO Scraper | page: 23	items: 0
+2021/10/11 14:32:41     INFO Scraper | page: 24	items: 0
+2021/10/11 14:32:42     INFO Scraper | page: 25	items: 0
+2021/10/11 14:32:43     INFO Scraper | page: 26	items: 0
+2021/10/11 14:32:44     INFO Scraper | page: 27	items: 0
+2021/10/11 14:32:45     INFO Scraper | page: 28	items: 0
+2021/10/11 14:32:47     INFO Scraper | page: 29	items: 0
+2021/10/11 14:32:48     INFO Scraper | page: 30	items: 0
+2021/10/11 14:32:49     INFO Scraper | page: 31	items: 0
+2021/10/11 14:32:50     INFO Scraper | page: 32	items: 0
+2021/10/11 14:32:51     INFO Scraper | page: 33	items: 0
+2021/10/11 14:32:53     INFO Scraper | page: 34	items: 0
+2021/10/11 14:32:54     INFO Scraper | page: 35	items: 0
+2021/10/11 14:32:55     INFO Scraper | page: 36	items: 0
+2021/10/11 14:32:56     INFO Scraper | page: 37	items: 0
+2021/10/11 14:32:57     INFO Scraper | page: 38	items: 0
+2021/10/11 14:32:58     INFO Scraper | page: 39	items: 0
+2021/10/11 14:33:00     INFO Scraper | page: 40	items: 0
+2021/10/11 14:33:01     INFO Scraper | page: 41	items: 0
+2021/10/11 14:33:02     INFO Scraper | page: 42	items: 0
+2021/10/11 14:33:04     INFO Scraper | page: 43	items: 0
+2021/10/11 14:33:06     INFO Scraper | page: 44	items: 0
+2021/10/11 14:33:07     INFO Scraper | page: 45	items: 0
+2021/10/11 14:33:08     INFO Scraper | page: 46	items: 0
+2021/10/11 14:33:09     INFO Scraper | page: 47	items: 0
+2021/10/11 14:33:11     INFO Scraper | page: 48	items: 0
+2021/10/11 14:33:13     INFO Scraper | page: 49	items: 0
+2021/10/11 14:33:15     INFO Scraper | page: 50	items: 0
+2021/10/11 14:33:15     INFO Scraper | End of result list reached. Processed 0 items.
+2021/10/11 14:33:15     INFO    root | Done.

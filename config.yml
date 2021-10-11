@@ -1,0 +1,37 @@
+#
+# Logging
+#
+# Available levels: CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
+#
+logging:
+    version: 1
+    formatters:
+        long:
+            format: "%(asctime)s %(levelname)8s %(name)7s | %(message)s"
+            datefmt: "%Y/%m/%d %H:%M:%S"
+
+    handlers:
+        stdout:
+            level: NOTSET
+            class: logging.StreamHandler
+            formatter: long
+            stream: ext://sys.stdout
+
+        file:
+            level: NOTSET
+            class : logging.handlers.RotatingFileHandler
+            encoding: utf-8
+            maxBytes: 2000000
+            backupCount: 5
+            formatter: long
+            filename: scraper.log
+
+    loggers:
+        urllib3.connectionpool:
+            level: INFO
+
+    root:
+        level: DEBUG
+        handlers: [stdout, file]
+        #handlers: [file]
+        #handlers: [stdout]
